@@ -4,3 +4,4 @@ streamlit
 pickle
 joblib
 scikit-learn
+pip
