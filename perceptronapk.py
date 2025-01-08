@@ -4,8 +4,8 @@ from joblib import load
 import numpy as np
 
 # Memuat model dan scaler
-model_filename = 'D:/Machine Learning/UAS_AldoAdityaSaputra_2213020179/supervised/mlp_fish_model.pkl'
-scaler_filename = 'D:/Machine Learning/UAS_AldoAdityaSaputra_2213020179/supervised/scaler_fish_data.pkl'
+model_filename = 'mlp_fish_model.pkl'
+scaler_filename = 'scaler_fish_data.pkl'
 
 mlp_model = load(model_filename)
 scaler = load(scaler_filename)
